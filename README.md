@@ -1,6 +1,8 @@
-# Sorteringsalgoritmer-Gymnasiearbete
+# Komparativ studie av sorteringsalgoritmer i Java
 
-Detta repository innehåller den metod och material som använts för att göra undersökningen till mitt Gymnasierarbete 2020-2021 på Teknikprogrammet NTI Gymnasiet.
+Den metod och material som använts för att göra undersökningen till mitt examensarbete på Teknikprogrammet NTI Gymnasiet 2020-2021.
+
+
 
 
 
