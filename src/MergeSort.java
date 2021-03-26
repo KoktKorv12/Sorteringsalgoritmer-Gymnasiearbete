@@ -71,6 +71,7 @@ class MergeSort {
       //  System.out.println("Given Array");
       //  printArray(arr);
 
+        // prints empty line and starts timer
         System.out.println();
         Instant starts = Instant.now();
         Thread.sleep(10);
@@ -78,6 +79,7 @@ class MergeSort {
         MergeSort ob = new MergeSort();
         ob.sort(arr, 0, arr.length - 1);
 
+        // ends timer and prints out time
         Instant ends = Instant.now();
         System.out.println(Duration.between(starts, ends));
 

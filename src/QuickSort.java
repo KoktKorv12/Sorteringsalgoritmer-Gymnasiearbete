@@ -44,15 +44,20 @@ public class QuickSort {
 
     public static void main(String[] args) throws InterruptedException {
         QuickSort qs = new QuickSort();
-        int[] A = NumberGenerator.inrangeRand(100);
+
+        //insert array size
+        int[] A = NumberGenerator.inrangeRand(1000000);
 
         // System.out.println(Arrays.toString(A));
         System.out.println();
+
+        //starts timer
         Instant starts = Instant.now();
         Thread.sleep(10);
 
         qs.quickSort(A);
 
+        //ends timer and prints out time
         Instant ends = Instant.now();
         System.out.println(Duration.between(starts, ends));
         // System.out.println(Arrays.toString(A));
